@@ -35,7 +35,7 @@ const font = "'Montserrat', ui-sans-serif, system-ui, sans-serif";
 // GOOGLE SHEETS — replace with your own Apps Script Web App URL.
 // See google-sheets-setup.md for the 5-minute setup guide.
 // ============================================================
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzOGxL_Ef76wiYb4d7z8c2KMKViyPoLhCaFRAWhDxOt465zqdyANiQ_nmUVOcsU4K1mAw/exec";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw1-ZvTRkllBFl85rCyswvfVS4hMiyLH_HtOTam5Ui0Zzyep-jyfpm6dvdzKlBZv-ImqQ/exec";
 
 async function submitToWaitlist({ firstName, lastName, email, phone, role }) {
   // Apps Script web apps don't return CORS headers, so we send the request
