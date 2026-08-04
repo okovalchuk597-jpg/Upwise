@@ -723,10 +723,14 @@ const Footer = () => (
         <span className="cursor-pointer hover:opacity-70" onClick={() => scrollToId("how-it-works")}>Як це працює</span>
         <span>Конфіденційність</span><span>Умови використання</span>
       </div>
-      <div className="flex gap-4">
-        <Instagram size={18} color={c.textMuted} />
-        <Linkedin size={18} color={c.textMuted} />
-      </div>
+    <div className="flex gap-4">
+  <a href="https://instagram.com/https://www.instagram.com/upwise.eu?igsh=MWIxNnJ4a3huejYwZw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+    <Instagram size={18} color={c.textMuted} />
+  </a>
+  <a href="https://t.me/@olichikqe" target="_blank" rel="noopener noreferrer">
+    <Send size={18} color={c.textMuted} />
+  </a>
+</div>
     </div>
   </footer>
 );
