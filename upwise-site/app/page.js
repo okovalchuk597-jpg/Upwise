@@ -724,10 +724,10 @@ const Footer = () => (
         <span>Конфіденційність</span><span>Умови використання</span>
       </div>
     <div className="flex gap-4">
-  <a href="https://instagram.com/https://www.instagram.com/upwise.eu?igsh=MWIxNnJ4a3huejYwZw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.instagram.com/upwise.eu?igsh=MWIxNnJ4a3huejYwZw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
     <Instagram size={18} color={c.textMuted} />
   </a>
-  <a href="https://t.me/@olichikqe" target="_blank" rel="noopener noreferrer">
+  <a href="https://t.me/olichikqe" target="_blank" rel="noopener noreferrer">
     <Send size={18} color={c.textMuted} />
   </a>
 </div>
