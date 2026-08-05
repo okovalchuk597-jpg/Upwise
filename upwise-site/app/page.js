@@ -604,7 +604,7 @@ const Founder = () => (
   <section id="founder" className="px-6 py-20" style={{ background: "#fff" }}>
     <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-center">
       <Reveal>
-        <div className="relative w-full aspect-square" style={{ background: c.primaryTint, borderRadius: radius.lg }}>
+     <div className="relative w-full aspect-square" style={{ backgroundImage: "url('/founder.png')", backgroundSize: "cover", backgroundPosition: "center", borderRadius: radius.lg }}>
           <div className="absolute -bottom-5 -right-5 px-5 py-4 flex items-center gap-3"
             style={{ background: "#fff", borderRadius: radius.md, border: `1px solid ${c.border}`, boxShadow: "0 16px 32px rgba(17,24,39,0.1)" }}>
             <div className="w-10 h-10 flex items-center justify-center" style={{ background: c.secondaryTint, borderRadius: "999px" }}>
