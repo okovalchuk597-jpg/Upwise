@@ -259,7 +259,11 @@ const Nav = ({ onJoin }) => {
   return (
     <nav className="sticky top-0 z-20 px-6 py-4" style={{ background: "rgba(250,251,253,0.85)", backdropFilter: "blur(8px)", borderBottom: `1px solid ${c.border}` }}>
       <div className="max-w-6xl mx-auto flex items-center justify-between gap-4">
-        <span className="text-lg font-extrabold cursor-pointer shrink-0" style={{ color: c.text }} onClick={() => scrollToId("top")}>Upwise</span>
+       <img
+          src="/logo.png"
+          alt="Upwise"
+          className="h-8 cursor-pointer shrink-0"
+          onClick={() => scrollToId("top")}/>
         <div className="hidden md:flex items-center gap-6 lg:gap-8 text-sm font-medium" style={{ color: c.textMuted }}>
           {NAV_LINKS.map((l) => (
             <span key={l.id} className="cursor-pointer hover:opacity-70" style={{ transition: "opacity 0.15s" }} onClick={() => goTo(l.id)}>
