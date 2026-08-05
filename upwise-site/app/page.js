@@ -260,7 +260,7 @@ const Nav = ({ onJoin }) => {
     <nav className="sticky top-0 z-20 px-6 py-4" style={{ background: "rgba(250,251,253,0.85)", backdropFilter: "blur(8px)", borderBottom: `1px solid ${c.border}` }}>
       <div className="max-w-6xl mx-auto flex items-center justify-between gap-4">
        <img
-          src="/logo.png"
+          src="/logo.jpeg"
           alt="Upwise"
           className="h-8 cursor-pointer shrink-0"
           onClick={() => scrollToId("top")}/>
