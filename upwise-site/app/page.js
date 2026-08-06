@@ -262,7 +262,7 @@ const Nav = ({ onJoin }) => {
        <img
           src="/logo.jpeg"
           alt="Upwise"
-          className="h-12 cursor-pointer shrink-0"
+          className="h-18 cursor-pointer shrink-0"
           onClick={() => scrollToId("top")}/>
         <div className="hidden md:flex items-center gap-6 lg:gap-8 text-sm font-medium" style={{ color: c.textMuted }}>
           {NAV_LINKS.map((l) => (
